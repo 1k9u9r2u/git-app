@@ -1,3 +1,3 @@
-class ApplicationRecord < ActiveRecord::Base
+class Article < ApplicationRecord
   validates :title, presence: true
 end
